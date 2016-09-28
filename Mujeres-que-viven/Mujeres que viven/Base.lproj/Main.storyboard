@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IZu-be-ADx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="King-Basil-Lite.otf">
+            <string>KingBasilLite-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="HcB-jn-bgA">
+            <objects>
+                <navigationController id="IZu-be-ADx" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GUY-Ps-81h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="NjY-jR-OHo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0nk-QY-j5A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-443" y="356"/>
+        </scene>
+        <!--Mujeres que viven-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mujeres_que_viven" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7I4-rb-bEt">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ndM-QN-PQl"/>
+                                    <barButtonItem title="Album" id="1yE-mw-E0Y">
+                                        <connections>
+                                            <action selector="pickAnImageFromAlbum:" destination="BYZ-38-t0r" id="SBU-lc-UTR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Iss-86-xN7"/>
+                                    <barButtonItem systemItem="camera" id="fOb-Jp-fkJ">
+                                        <connections>
+                                            <action selector="pickAnImageFromCamera:" destination="BYZ-38-t0r" id="Njb-6I-0F5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="wXi-qo-QzO"/>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tcj-o7-wcv">
+                                <rect key="frame" x="20" y="44" width="560" height="512"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taR-6X-PrV">
+                                <rect key="frame" x="124" y="471" width="41" height="51"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.81960784310000001" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="LaMetaEsVivir" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aD5-vX-NPe">
+                                <rect key="frame" x="165" y="466" width="271" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="nzJ-Bm-Z0u"/>
+                                </constraints>
+                                <color key="textColor" red="0.95686274510000002" green="0.81960784310000001" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="KingBasilLite-Regular" family="King Basil Lite" pointSize="40"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="aD5-vX-NPe" firstAttribute="leading" secondItem="taR-6X-PrV" secondAttribute="trailing" id="4SG-gp-ELP"/>
+                            <constraint firstItem="tcj-o7-wcv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Dg3-hL-a8l"/>
+                            <constraint firstItem="aD5-vX-NPe" firstAttribute="bottom" secondItem="tcj-o7-wcv" secondAttribute="bottom" id="Onf-Eh-n07"/>
+                            <constraint firstItem="7I4-rb-bEt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="SIo-2d-XLB"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="7I4-rb-bEt" secondAttribute="bottom" id="SfI-KY-ajI"/>
+                            <constraint firstItem="taR-6X-PrV" firstAttribute="top" secondItem="aD5-vX-NPe" secondAttribute="top" constant="5" id="Y91-va-3sa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tcj-o7-wcv" secondAttribute="trailing" id="g1Z-RB-Nvv"/>
+                            <constraint firstItem="aD5-vX-NPe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gHM-of-imo"/>
+                            <constraint firstItem="tcj-o7-wcv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="jd1-ur-oxR"/>
+                            <constraint firstItem="7I4-rb-bEt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="mMw-Lj-QBT"/>
+                            <constraint firstItem="tcj-o7-wcv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v6A-WX-0mp"/>
+                            <constraint firstItem="tcj-o7-wcv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wws-Bu-ef8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mujeres que viven" id="jsD-5Z-vje">
+                        <barButtonItem key="leftBarButtonItem" systemItem="action" id="CIR-8D-Ev5">
+                            <connections>
+                                <action selector="shareImage:" destination="BYZ-38-t0r" id="NuX-PB-Hrx"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="LogoMini" id="bRZ-6L-A3d">
+                            <connections>
+                                <segue destination="sck-vf-Y8m" kind="show" id="xLL-8i-i7v"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bottomText" destination="aD5-vX-NPe" id="FR6-dO-iAv"/>
+                        <outlet property="cameraButton" destination="fOb-Jp-fkJ" id="ZTX-dW-98L"/>
+                        <outlet property="imagePickerView" destination="tcj-o7-wcv" id="lrS-rj-D58"/>
+                        <outlet property="shareButton" destination="CIR-8D-Ev5" id="dhi-pI-3BD"/>
+                        <outlet property="toolBar" destination="7I4-rb-bEt" id="Yj2-cH-WLI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286" y="356"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="1tD-Ua-iPI">
+            <objects>
+                <viewController id="sck-vf-Y8m" customClass="menuViewController" customModule="Mujeres_que_viven" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JrX-Rg-1pi"/>
+                        <viewControllerLayoutGuide type="bottom" id="qIx-24-xw9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fce-YC-JHM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62G-58-nVL">
+                                <rect key="frame" x="277" y="550" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cAh-SA-TwF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="989" y="356"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LogoMini" width="22" height="22"/>
+    </resources>
+    <color key="tintColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
+</document>

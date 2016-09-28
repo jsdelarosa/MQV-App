@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9400FF61D7DD35F001D2C44 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9400FF51D7DD35F001D2C44 /* menuViewController.swift */; };
+		B9E148061D78964700C55CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E148051D78964700C55CAD /* AppDelegate.swift */; };
+		B9E148081D78964700C55CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E148071D78964700C55CAD /* ViewController.swift */; };
+		B9E1480B1D78964700C55CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E148091D78964700C55CAD /* Main.storyboard */; };
+		B9E1480D1D78964700C55CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E1480C1D78964700C55CAD /* Assets.xcassets */; };
+		B9E148101D78964700C55CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E1480E1D78964700C55CAD /* LaunchScreen.storyboard */; };
+		B9E1481B1D78964800C55CAD /* Mujeres_que_vivenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E1481A1D78964800C55CAD /* Mujeres_que_vivenTests.swift */; };
+		B9E148261D78964800C55CAD /* Mujeres_que_vivenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E148251D78964800C55CAD /* Mujeres_que_vivenUITests.swift */; };
+		B9E148351D789EF600C55CAD /* King-Basil-Lite.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9E148331D789EB900C55CAD /* King-Basil-Lite.otf */; };
+		B9E148371D78E31E00C55CAD /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E148361D78E31E00C55CAD /* Image.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9E148171D78964800C55CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E147FA1D78964700C55CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E148011D78964700C55CAD;
+			remoteInfo = "Mujeres que viven";
+		};
+		B9E148221D78964800C55CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E147FA1D78964700C55CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E148011D78964700C55CAD;
+			remoteInfo = "Mujeres que viven";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9400FF51D7DD35F001D2C44 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		B9E148021D78964700C55CAD /* Mujeres que viven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mujeres que viven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E148051D78964700C55CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9E148071D78964700C55CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9E1480A1D78964700C55CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9E1480C1D78964700C55CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9E1480F1D78964700C55CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9E148111D78964700C55CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E148161D78964800C55CAD /* Mujeres que vivenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mujeres que vivenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E1481A1D78964800C55CAD /* Mujeres_que_vivenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mujeres_que_vivenTests.swift; sourceTree = "<group>"; };
+		B9E1481C1D78964800C55CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E148211D78964800C55CAD /* Mujeres que vivenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mujeres que vivenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E148251D78964800C55CAD /* Mujeres_que_vivenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mujeres_que_vivenUITests.swift; sourceTree = "<group>"; };
+		B9E148271D78964800C55CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E148331D789EB900C55CAD /* King-Basil-Lite.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "King-Basil-Lite.otf"; sourceTree = "<group>"; };
+		B9E148361D78E31E00C55CAD /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9E147FF1D78964700C55CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E148131D78964800C55CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1481E1D78964800C55CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9E147F91D78964600C55CAD = {
+			isa = PBXGroup;
+			children = (
+				B9E148041D78964700C55CAD /* Mujeres que viven */,
+				B9E148191D78964800C55CAD /* Mujeres que vivenTests */,
+				B9E148241D78964800C55CAD /* Mujeres que vivenUITests */,
+				B9E148031D78964700C55CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E148031D78964700C55CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E148021D78964700C55CAD /* Mujeres que viven.app */,
+				B9E148161D78964800C55CAD /* Mujeres que vivenTests.xctest */,
+				B9E148211D78964800C55CAD /* Mujeres que vivenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E148041D78964700C55CAD /* Mujeres que viven */ = {
+			isa = PBXGroup;
+			children = (
+				B9E148051D78964700C55CAD /* AppDelegate.swift */,
+				B9E148071D78964700C55CAD /* ViewController.swift */,
+				B9E148361D78E31E00C55CAD /* Image.swift */,
+				B9E148091D78964700C55CAD /* Main.storyboard */,
+				B9400FF51D7DD35F001D2C44 /* menuViewController.swift */,
+				B9E1480C1D78964700C55CAD /* Assets.xcassets */,
+				B9E1480E1D78964700C55CAD /* LaunchScreen.storyboard */,
+				B9E148341D789EC100C55CAD /* Resources */,
+				B9E148111D78964700C55CAD /* Info.plist */,
+			);
+			path = "Mujeres que viven";
+			sourceTree = "<group>";
+		};
+		B9E148191D78964800C55CAD /* Mujeres que vivenTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E1481A1D78964800C55CAD /* Mujeres_que_vivenTests.swift */,
+				B9E1481C1D78964800C55CAD /* Info.plist */,
+			);
+			path = "Mujeres que vivenTests";
+			sourceTree = "<group>";
+		};
+		B9E148241D78964800C55CAD /* Mujeres que vivenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E148251D78964800C55CAD /* Mujeres_que_vivenUITests.swift */,
+				B9E148271D78964800C55CAD /* Info.plist */,
+			);
+			path = "Mujeres que vivenUITests";
+			sourceTree = "<group>";
+		};
+		B9E148341D789EC100C55CAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9E148331D789EB900C55CAD /* King-Basil-Lite.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9E148011D78964700C55CAD /* Mujeres que viven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E1482A1D78964800C55CAD /* Build configuration list for PBXNativeTarget "Mujeres que viven" */;
+			buildPhases = (
+				B9E147FE1D78964700C55CAD /* Sources */,
+				B9E147FF1D78964700C55CAD /* Frameworks */,
+				B9E148001D78964700C55CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mujeres que viven";
+			productName = "Mujeres que viven";
+			productReference = B9E148021D78964700C55CAD /* Mujeres que viven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9E148151D78964800C55CAD /* Mujeres que vivenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E1482D1D78964800C55CAD /* Build configuration list for PBXNativeTarget "Mujeres que vivenTests" */;
+			buildPhases = (
+				B9E148121D78964800C55CAD /* Sources */,
+				B9E148131D78964800C55CAD /* Frameworks */,
+				B9E148141D78964800C55CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E148181D78964800C55CAD /* PBXTargetDependency */,
+			);
+			name = "Mujeres que vivenTests";
+			productName = "Mujeres que vivenTests";
+			productReference = B9E148161D78964800C55CAD /* Mujeres que vivenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9E148201D78964800C55CAD /* Mujeres que vivenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E148301D78964800C55CAD /* Build configuration list for PBXNativeTarget "Mujeres que vivenUITests" */;
+			buildPhases = (
+				B9E1481D1D78964800C55CAD /* Sources */,
+				B9E1481E1D78964800C55CAD /* Frameworks */,
+				B9E1481F1D78964800C55CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E148231D78964800C55CAD /* PBXTargetDependency */,
+			);
+			name = "Mujeres que vivenUITests";
+			productName = "Mujeres que vivenUITests";
+			productReference = B9E148211D78964800C55CAD /* Mujeres que vivenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9E147FA1D78964700C55CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Magnolia Inc.";
+				TargetAttributes = {
+					B9E148011D78964700C55CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9K9L3956U8;
+					};
+					B9E148151D78964800C55CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9K9L3956U8;
+						TestTargetID = B9E148011D78964700C55CAD;
+					};
+					B9E148201D78964800C55CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9K9L3956U8;
+						TestTargetID = B9E148011D78964700C55CAD;
+					};
+				};
+			};
+			buildConfigurationList = B9E147FD1D78964700C55CAD /* Build configuration list for PBXProject "Mujeres que viven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9E147F91D78964600C55CAD;
+			productRefGroup = B9E148031D78964700C55CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9E148011D78964700C55CAD /* Mujeres que viven */,
+				B9E148151D78964800C55CAD /* Mujeres que vivenTests */,
+				B9E148201D78964800C55CAD /* Mujeres que vivenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9E148001D78964700C55CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E148351D789EF600C55CAD /* King-Basil-Lite.otf in Resources */,
+				B9E148101D78964700C55CAD /* LaunchScreen.storyboard in Resources */,
+				B9E1480D1D78964700C55CAD /* Assets.xcassets in Resources */,
+				B9E1480B1D78964700C55CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E148141D78964800C55CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1481F1D78964800C55CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9E147FE1D78964700C55CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E148081D78964700C55CAD /* ViewController.swift in Sources */,
+				B9E148371D78E31E00C55CAD /* Image.swift in Sources */,
+				B9E148061D78964700C55CAD /* AppDelegate.swift in Sources */,
+				B9400FF61D7DD35F001D2C44 /* menuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E148121D78964800C55CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E1481B1D78964800C55CAD /* Mujeres_que_vivenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1481D1D78964800C55CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E148261D78964800C55CAD /* Mujeres_que_vivenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9E148181D78964800C55CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E148011D78964700C55CAD /* Mujeres que viven */;
+			targetProxy = B9E148171D78964800C55CAD /* PBXContainerItemProxy */;
+		};
+		B9E148231D78964800C55CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E148011D78964700C55CAD /* Mujeres que viven */;
+			targetProxy = B9E148221D78964800C55CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9E148091D78964700C55CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E1480A1D78964700C55CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9E1480E1D78964700C55CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E1480F1D78964700C55CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9E148281D78964800C55CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9E148291D78964800C55CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9E1482B1D78964800C55CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mujeres que viven/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wasp.Mujeres-que-viven";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9E1482C1D78964800C55CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mujeres que viven/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wasp.Mujeres-que-viven";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9E1482E1D78964800C55CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mujeres que vivenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wasp.Mujeres-que-vivenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mujeres que viven.app/Mujeres que viven";
+			};
+			name = Debug;
+		};
+		B9E1482F1D78964800C55CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mujeres que vivenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wasp.Mujeres-que-vivenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mujeres que viven.app/Mujeres que viven";
+			};
+			name = Release;
+		};
+		B9E148311D78964800C55CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mujeres que vivenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wasp.Mujeres-que-vivenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mujeres que viven";
+			};
+			name = Debug;
+		};
+		B9E148321D78964800C55CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mujeres que vivenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wasp.Mujeres-que-vivenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mujeres que viven";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9E147FD1D78964700C55CAD /* Build configuration list for PBXProject "Mujeres que viven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E148281D78964800C55CAD /* Debug */,
+				B9E148291D78964800C55CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E1482A1D78964800C55CAD /* Build configuration list for PBXNativeTarget "Mujeres que viven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E1482B1D78964800C55CAD /* Debug */,
+				B9E1482C1D78964800C55CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E1482D1D78964800C55CAD /* Build configuration list for PBXNativeTarget "Mujeres que vivenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E1482E1D78964800C55CAD /* Debug */,
+				B9E1482F1D78964800C55CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E148301D78964800C55CAD /* Build configuration list for PBXNativeTarget "Mujeres que vivenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E148311D78964800C55CAD /* Debug */,
+				B9E148321D78964800C55CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9E147FA1D78964700C55CAD /* Project object */;
+}
